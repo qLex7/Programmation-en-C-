@@ -1,0 +1,9 @@
+/home/debord/Bureau/Dossier L1 informatique/Programmation S2/Tp C++_5/main.cpp: In function ‘int main()’:
+/home/debord/Bureau/Dossier L1 informatique/Programmation S2/Tp C++_5/main.cpp:47:23: error: no matching function for call to ‘collection_entiers::valeur(double&, int&, <unresolved overloaded function type>)’
+   B.valeur(moy,min,max);
+                       ^
+In file included from /home/debord/Bureau/Dossier L1 informatique/Programmation S2/Tp C++_5/main.cpp:3:0:
+/home/debord/Bureau/Dossier L1 informatique/Programmation S2/Tp C++_5/entiers.cpp:71:6: note: candidate: void collection_entiers::valeur(double&, int&, int&)
+ void collection_entiers::valeur(double& moy, int& min, int& max)
+      ^
+/home/debord/Bureau/Dossier L1 informatique/Programmation S2/Tp C++_5/entiers.cpp:71:6: note:   no known conversion for argument 3 from ‘<unresolved overloaded function type>’ to ‘int&’
